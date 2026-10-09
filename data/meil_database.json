@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "userId": "MEIL-MGMT-ADM01",
+      "name": "Executive Management Administrator",
+      "email": "mgmt.admin@meil.in",
+      "department": "MEIL Corporate Governance & ESG Secretariat",
+      "role": "MANAGEMENT_ADMIN",
+      "salt": "7b8dc456c87c5d6cdb597392fb44436d",
+      "passwordHash": "77e47cba757bd1257ebd2365e5f5bdece16673e133231026081632089072f519d3b575703b39158f067e50e6e297c007a6604d9d2ac24f33fbeb2813602c7454",
+      "createdAt": "2026-10-02T19:51:41.749Z",
+      "lastLogin": "2026-10-02T19:52:25.323Z"
+    }
+  ],
+  "sessions": {},
+  "auditLogs": [
+    {
+      "id": "log-1790970762745-e66k",
+      "action": "Management Logout",
+      "userId": "MEIL-MGMT-ADM01",
+      "role": "MANAGEMENT_ADMIN",
+      "module": "Authentication",
+      "entity": "Portal Gate",
+      "recordId": "LOGOUT",
+      "previousValue": null,
+      "newValue": null,
+      "date": "2026-10-02",
+      "time": "19:52 IST",
+      "timestamp": "2026-10-02T19:52:42.745Z",
+      "status": "Completed",
+      "details": "Session terminated for MEIL-MGMT-ADM01."
+    },
+    {
+      "id": "log-1790970745323-ng6s",
+      "action": "Successful Management Login",
+      "userId": "MEIL-MGMT-ADM01",
+      "role": "MANAGEMENT_ADMIN",
+      "module": "Authentication",
+      "entity": "MEIL Group",
+      "recordId": "SESSION",
+      "previousValue": null,
+      "newValue": "683fa17f...",
+      "date": "2026-10-02",
+      "time": "19:52 IST",
+      "timestamp": "2026-10-02T19:52:25.323Z",
+      "status": "Completed",
+      "details": "Management Admin MEIL-MGMT-ADM01 authenticated successfully."
+    },
+    {
+      "id": "log-1790970740234-t20y",
+      "action": "Failed Login Attempt",
+      "userId": "WRONG",
+      "role": "UNKNOWN",
+      "module": "Authentication",
+      "entity": "Portal Gate",
+      "recordId": "AUTH",
+      "previousValue": null,
+      "newValue": null,
+      "date": "2026-10-02",
+      "time": "19:52 IST",
+      "timestamp": "2026-10-02T19:52:20.234Z",
+      "status": "Completed",
+      "details": "Invalid user ID attempt from 127.0.0.1"
+    },
+    {
+      "id": "log-sys-01",
+      "action": "System Security Initialized",
+      "userId": "SYSTEM",
+      "role": "SYSTEM_SECURITY",
+      "module": "Authentication & Access Control",
+      "entity": "MEIL Group",
+      "recordId": "SEC-INIT",
+      "previousValue": null,
+      "newValue": "MANAGEMENT_ADMIN role enforcement enabled",
+      "date": "2026-10-02",
+      "time": "09:00 IST",
+      "timestamp": "2026-10-02T19:51:41.750Z",
+      "status": "Completed",
+      "details": "MEIL ESG & BRSR secure management portal initialized with end-to-end encryption."
+    }
+  ],
+  "failedAttempts": {
+    "127.0.0.1_WRONG": 1
+  },
+  "lockouts": {}
+}

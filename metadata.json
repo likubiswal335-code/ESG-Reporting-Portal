@@ -1,0 +1,6 @@
+{
+  "name": "MEIL ESG & BRSR Reporting Portal",
+  "description": "Enterprise ESG data management, analytics and BRSR-ready reporting portal for Megha Engineering & Infrastructures Limited (MEIL).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
